@@ -1,0 +1,131 @@
+@media (min-width:700px) {
+    .adviceWrapper {
+        height: 250px;
+        width: 400px;
+        border-radius: 12px;
+        background-color: #313B48;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 40px;
+    }
+    
+    .adviceTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        font-size: 0.7em;
+        letter-spacing: 4px;
+    }
+    
+    .adviceContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        text-align: center;
+        font-size: 22px;
+        color: #C8DDE4;
+        text-rendering: geometricPrecision;
+    }
+    
+    .divider {
+        width: 100%;
+    }
+    
+    .buttonWrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    button {
+        border: none;
+        border-radius: 50%;
+        height: 40px;
+        width: 3em;
+        padding: 5px;
+        background-color: hsl(150, 100%, 66%);
+        cursor: pointer;
+        font-weight: bolder;
+        position: absolute;
+        padding: 10px;
+    }
+    
+    .diceImage {
+        width: 100%;
+        transition: 0.5s;
+    }
+    
+    .diceImage:hover {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+     }
+}
+
+@media (max-width:700px) {
+    .adviceWrapper {
+        height: 250px;
+        width: 400px;
+        border-radius: 12px;
+        background-color: #313B48;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 40px;
+    }
+    
+    .adviceTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        font-size: 0.7em;
+        letter-spacing: 4px;
+    }
+    
+    .adviceContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        text-align: center;
+        font-size: 22px;
+        color: #C8DDE4;
+        text-rendering: geometricPrecision;
+    }
+    
+    .divider {
+        width: 100%;
+    }
+    
+    .buttonWrapper {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    
+    button {
+        border: none;
+        border-radius: 50%;
+        height: 40px;
+        width: 3em;
+        padding: 5px;
+        background-color: hsl(150, 100%, 66%);
+        cursor: pointer;
+        font-weight: bolder;
+        position: absolute;
+        padding: 10px;
+    }
+    
+    .diceImage {
+        width: 100%;
+        transition: 0.5s;
+    }
+    
+    .diceImage:active {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+     }
+}
